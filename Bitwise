@@ -1,0 +1,13 @@
+class Bit
+{
+   public static void main(String[] args)
+   {
+      int a = 5;
+      int b = 15;
+      int c = a&b;
+      int d = a|b;
+      int e = a^b;
+      int f = ~a;
+      System.out.println("And:" +c + "OR:" +d + "Xor:" +e + "NOT:" +f);
+   }
+}
